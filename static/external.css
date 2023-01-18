@@ -1,0 +1,131 @@
+* {
+    -webkit-box-sizing: border-box;
+}
+
+/*Header*/
+body, h1, h2, h3, h4, h5 {
+    margin: 0;
+    font-family: Montserrat,sans-serif;
+    font-weight: 300;
+}
+
+header {
+    display: block;
+    padding-left: 0;
+    padding-right: 0;
+    background: url("img/header.jpg") repeat-x center bottom;
+    /* Градиент */
+}
+
+.mainContainer {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.header {
+    height: 143px; /* Высота шапки */
+    text-align: center; /* Выравнивание по центру */
+}
+
+.header .headerTop {
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    transition: .3s;
+}
+
+.header .leftPanel{
+    float: left;
+}
+
+.header .rightPanel{
+    float: right;
+}
+
+.headerBottom {
+    background-color: rgba(71,71,71,.93);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.headerBottom .navbar .navbar-nav {
+    display: flex;
+}
+
+.headerBottom .navbar .navbar-nav {
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.headerBottom .navbar {
+    padding: 0;
+    margin-top: 15px;
+}
+
+.navbar, .navbar>.container, .navbar>.container-fluid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slaider_h {
+	height: 60px;
+	width: 50%;
+	margin: 30px 0px 10px 0px;
+	padding-top: 20px;
+	background-color: rgba(10, 77, 125, 0.5);
+	text-align: center;
+}
+
+.slaider_p {
+	height: 100%;
+	width: 80%;
+	float: right;
+	margin: 0px 0px 30px 0px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(10, 77, 125, 0.5);
+	text-align: center;
+}
+
+.reservationPanelWrap {
+    position: fixed;
+    display: block;
+    height: 200px;
+    bottom: 50px;
+    right: 0;
+    width: 100%;
+    z-index: 20;
+    background-color: rgba(71, 71, 71, .93);
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-12 {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.reservationPanelWrap .reservationPanel {
+    padding: 20px 0 10px;
+}
+
+.reservationPanelWrap .reservationPanel {
+    z-index: 20;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
