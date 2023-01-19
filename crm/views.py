@@ -6,7 +6,7 @@ from .models import Order
 # Create your views here.
 def first_page(request):
     slider_list = Order.objects.all()
-    return render(request, './licevaia.html', {'slider_list': slider_list})
+    return render(request, './index.html', {'slider_list': slider_list})
 
 
 '''def thanks_page(request):
